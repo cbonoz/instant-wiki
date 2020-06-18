@@ -1,0 +1,12 @@
+modules:
+  macro:
+    - key: instant-wiki-hello-world
+      function: main
+      title: Create Wiki
+      description: Inserts instant references section based on your pages content
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: "ari:cloud:ecosystem::app/700d03ee-addc-47b3-92f5-050feaa85a9d"
+  name: instant-wiki
