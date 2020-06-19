@@ -1,3 +1,7 @@
+<p align='center'>
+    <img src="./img/instant_wiki_3_2.png">
+</p>
+
 # Instant Wiki
 
 Forge Atlassian app that enables automatic insertion of a keywords section and a variety of relevant article links to the bottom of any page.
