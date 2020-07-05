@@ -4,15 +4,11 @@
 
 # Instant Wiki
 
-Forge Atlassian app that enables automatic insertion of a keywords section and a variety of relevant article links to the bottom of any page.
+Use NLP to extract an automatic and dynamically updated references and keywords section to the end of any Confluence article.
 
 Search for the `instant-wiki` forge app
 
 Invoke via `/Create wiki`
-
-## Instant Wiki
-
-Use NLP to extract an automatic and dynamically updated references and keywords section to the end of any Confluence article.
 
 Built on Atlassian Forge.
 
@@ -27,6 +23,15 @@ Built on Atlassian Forge.
 - Uses basic NLP to extract core phrases and topics out of an article
 - Generates automatic wikipedia links for additional information on any of the extracted key phrases from the article.
 
+## Installation
+
+* Download the forge CLI using the instructions <a href="https://developer.atlassian.com/platform/forge/getting-started/" target="_blank">here</a>.
+* `forge login`
+* `forge install`
+
+You should now be able to find the /Create wiki command available in any confluence article as shown in the screenshots below.
+
+
 ## How I built it
 
 - Macro parses out the paragraph (body) content of the article.
@@ -37,13 +42,6 @@ Built on Atlassian Forge.
 
 - There wasn't a formal API for extracting the plain text out of a confluence article. I had to build a processing function to enable parsing through the formatted confluence markdown to get the relevant content.
 
-## Accomplishments that I'm proud of
-
-It works
-
-## What I learned
-
-How to build a "serverless" forge app and leverage the confluence API to pull article data
 
 ## What's next for Instant Wiki
 
