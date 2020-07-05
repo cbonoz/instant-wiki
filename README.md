@@ -14,8 +14,10 @@ Built on Atlassian Forge.
 
 ## Inspiration
 
-- Many times you may be writing documentation for items where additional content/references might be useful
+- Many times you may be writing documentation for items where additional content/references might be relevent.
+- These sections are useful but often folks might not take or have the time to put these together.
 - Extracting keywords can help a reader get a quick feel for the gist of a long article, and improve potential search results
+- Content that dynamically changes - similar to the acronym. Not everyone might be familiar with all the key concepts being used.
 
 ## What it does
 
@@ -25,12 +27,11 @@ Built on Atlassian Forge.
 
 ## Installation
 
-* Download the forge CLI using the instructions <a href="https://developer.atlassian.com/platform/forge/getting-started/" target="_blank">here</a>.
-* `forge login`
-* `forge install`
+- Download the forge CLI using the instructions <a href="https://developer.atlassian.com/platform/forge/getting-started/" target="_blank">here</a>.
+- `forge login`
+- `forge install`
 
 You should now be able to find the /Create wiki command available in any confluence article as shown in the screenshots below.
-
 
 ## How I built it
 
@@ -41,7 +42,6 @@ You should now be able to find the /Create wiki command available in any conflue
 ## Challenges I ran into
 
 - There wasn't a formal API for extracting the plain text out of a confluence article. I had to build a processing function to enable parsing through the formatted confluence markdown to get the relevant content.
-
 
 ## What's next for Instant Wiki
 
